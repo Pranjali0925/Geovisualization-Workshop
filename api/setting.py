@@ -4,7 +4,7 @@ DOMAIN = {
 MONGO_HOST = 'localhost'
 MONGO_PORT = 27017
 
-MONGO_DBNAME = "UFO_witness"
+MONGO_DBNAME = "UFO_witness1"
 
 ALLOW_UNKNOWN=True
 

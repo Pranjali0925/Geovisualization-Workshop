@@ -9,4 +9,4 @@ def startREST(databaseName, portNum):
     app.run(port=portNum)
 
 if __name__ == '__main__':
-    startREST("[insert your database name]", 13579)
+    startREST("UFO_witness1", 13579)
