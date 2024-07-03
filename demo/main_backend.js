@@ -28,7 +28,7 @@ L.polygon([
     [40, -75]
 ]).addTo(mymap).bindPopup("I am an alone polygon.");
 
-$.get("http://127.0.0.1:13579/2019_03", visualize_geojson)
+$.get("http://127.0.0.1:13579", visualize_geojson)
 
 function visualize_geojson(data) {
     data = format_data(data);
